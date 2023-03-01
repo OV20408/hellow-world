@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="./img/archivo.ico" type="image/x-icon">  -->
+
+    <title>Registro</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="main-title">Titulo Principal</h1>
+    </header>
+    <main>
+      <section>
+        <h2 class="second-title">Formulario de Identificación</h2>
+        <article>
+          <h3 class="third-title">Rellenar los siguientes pasos</h3>
+          <form class="register" action="" method="post">
+            <p>
+              <label for="fullname">Nombre Completo</label>
+              <input id="fullname" type="text" placeholder="Ingrese su Nombre" name="fullname"
+              />
+            </p>
+            <p>
+              <label for="mail">Email</label>
+              <input id="mail" type="text" placeholder="Ingrese su Correo" />
+            </p>
+            <p>
+              <label for="Especialidad">Selecciona/Identificate</label>
+              <select name="Especialidad" id="Especialidad">
+                <option value="Ninguno">Ninguno</option>
+                <option value="Estudiante">Estudiante</option>
+                <option value="Docente">Docente</option>
+                <option value="Administrativos">Administrativos</option>
+              </select>
+            </p>
+                        <!--<p>
+              <label for="group"></label> grupo para el index de estudiantes
+              </p> -->
+            <button title="Hover on me!" type="submit">Enviar</button> <!--Interaccion con JS-->
+          </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
